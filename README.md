@@ -250,6 +250,34 @@ This project is proprietary software. All rights reserved.
 
 For questions or support, please contact the development team.
 
+### Yeni Dil Ekleme (Adding New Languages)
+1. `src/locales/` altında yeni dil klasörü oluşturun
+2. `common.json` dosyasını ekleyin
+3. `src/lib/i18n.ts` dosyasında dil kaynağını ekleyin
+4. Header bileşeninde dil seçeneklerini güncelleyin
+
+## 🚀 Production Build
+
+```bash
+npm run build
+npm start
+```
+
+## 📄 PRD Uyumluluğu (PRD Compliance)
+
+Bu proje, PRD dokümanında belirtilen tüm gereksinimleri karşılar:
+
+✅ **Teknoloji Stack**: Next.js/React + Tailwind CSS  
+✅ **Birim Sistemi**: Tüm boyutlar rem birimi ile  
+✅ **Stil Yazımı**: Sadece Tailwind sınıfları kullanıldı  
+✅ **Font Yönetimi**: Self-hosted font sistemi  
+✅ **Sıfırdan Geliştirme**: Hazır tema kullanılmadı  
+✅ **Çok Dilli Destek**: 32 dil altyapısı hazır  
+✅ **Responsive Tasarım**: Tüm cihazlarda uyumlu  
+✅ **Modüler Yapı**: Yeniden kullanılabilir bileşenler  
+
+**Not**: Bu proje Faz 1 (Demo) aşamasındadır. Ana sayfa tamamlanmış olup, diğer sayfalar için geliştirme devam etmektedir.
+
 ---
 
 **Last Updated**: January 2025
