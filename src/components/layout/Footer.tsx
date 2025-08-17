@@ -96,7 +96,7 @@ const Footer = () => {
               ))}
             </div>
             <div className="f-language-box">
-              <span style={{ fontSize: '25px' }}>{currentLanguage.flag}</span>
+              <span className="text-2xl">{currentLanguage.flag}</span>
               <span className="f-language-text">{currentLanguage.name}</span>
             </div>
           </div>
@@ -116,12 +116,31 @@ const Footer = () => {
                   return (
                     <Link
                       key={social.name}
-                      className="modern-social-icon"
+                      className="modern-social-icon hover:scale-110 transition-transform duration-200"
                       href="#"
                       style={{
+                        color: social.color,
+                        backgroundColor: 'white',
+                        borderRadius: '50%',
+                        padding: '0.5rem',
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        boxShadow: '0 0.125rem 0.5rem rgba(0, 0, 0, 0.1)',
+                        transition: 'all 0.3s ease',
                         '--social-color': social.color,
                         '--social-hover-color': social.hoverColor
                       } as React.CSSProperties}
+                      onMouseEnter={(e) => {
+                        e.currentTarget.style.color = social.hoverColor;
+                        e.currentTarget.style.transform = 'scale(1.1)';
+                        e.currentTarget.style.boxShadow = '0 0.25rem 1rem rgba(0, 0, 0, 0.15)';
+                      }}
+                      onMouseLeave={(e) => {
+                        e.currentTarget.style.color = social.color;
+                        e.currentTarget.style.transform = 'scale(1)';
+                        e.currentTarget.style.boxShadow = '0 0.125rem 0.5rem rgba(0, 0, 0, 0.1)';
+                      }}
                     >
                       <IconComponent size={24} strokeWidth={1.5} />
                     </Link>
@@ -217,7 +236,7 @@ const Footer = () => {
                   return (
                     <Link
                       key={store.name}
-                      className="modern-app-store-btn"
+                      className="modern-app-store-btn hover:scale-105 transition-transform duration-200"
                       href="#"
                       style={{
                         '--store-color': store.color,
@@ -227,10 +246,10 @@ const Footer = () => {
                       <div className="app-store-icon">
                         <IconComponent size={20} strokeWidth={2} />
                       </div>
-                                             <div className="app-store-text">
-                         <span className="app-store-name">{store.name}</span>
-                         <span className="app-store-desc">{store.text}</span>
-                       </div>
+                      <div className="app-store-text">
+                        <span className="app-store-name">{store.name}</span>
+                        <span className="app-store-desc">{store.text}</span>
+                      </div>
                     </Link>
                   );
                 })}

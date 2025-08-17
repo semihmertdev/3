@@ -86,7 +86,7 @@ const Header = () => {
                   </div>
                 </div>
                 <div className="h-language">
-                  <span style={{ fontSize: '20px' }}>{currentLanguage.flag}</span>
+                  <span className="text-xl">{currentLanguage.flag}</span>
                   <span>{currentLanguage.name}</span>
                 </div>
               </div>
@@ -176,7 +176,7 @@ const Header = () => {
               </div>
               <div className="relative">
                 <div className="h-language" onClick={() => setIsLanguageMenuOpen(!isLanguageMenuOpen)}>
-                  <span style={{ fontSize: '20px' }}>{currentLanguage.flag}</span>
+                  <span className="text-xl">{currentLanguage.flag}</span>
                   <span className="ml-2">{currentLanguage.name}</span>
                 </div>
                 <div className={`absolute top-full right-0 mt-3 bg-white rounded-2xl shadow-2xl border border-white z-50 min-w-48 overflow-hidden transition-all duration-300 ${isLanguageMenuOpen ? 'opacity-100 scale-100 translate-y-0' : 'opacity-0 scale-95 translate-y-2 pointer-events-none'}`}>
@@ -192,7 +192,7 @@ const Header = () => {
                               : 'text-black hover:text-green-600'
                           }`}
                         >
-                        <span style={{ fontSize: '20px' }}>{lang.flag}</span>
+                        <span className="text-xl">{lang.flag}</span>
                         <span className="ml-2">{lang.name}</span>
                         {i18n.language === lang.code && (
                           <svg className="ml-auto w-5 h-5 text-green-600" fill="currentColor" viewBox="0 0 20 20">

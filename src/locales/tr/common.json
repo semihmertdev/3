@@ -127,5 +127,13 @@
       "computer": "BİLGİSAYAR"
     },
     "priceDrop": "Fiyat Düştü"
+  },
+  "blog": {
+    "title": "Blog",
+    "date": "Ocak 15, 2025",
+    "category": "Teknoloji",
+    "postTitle": "Blog Post Başlığı",
+    "excerpt": "Bu blog yazısının kısa özeti burada yer alacak. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "readMore": "Devamını Oku"
   }
 }

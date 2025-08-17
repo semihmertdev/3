@@ -127,5 +127,13 @@
       "computer": "COMPUTER"
     },
     "priceDrop": "Preissenkung"
+  },
+  "blog": {
+    "title": "Blog",
+    "date": "15. Januar 2025",
+    "category": "Technologie",
+    "postTitle": "Blog-Post-Titel",
+    "excerpt": "Dies ist ein kurzer Auszug aus dem Blog-Post. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "readMore": "Weiterlesen"
   }
 }

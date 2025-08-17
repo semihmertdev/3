@@ -146,7 +146,26 @@ const BannerSlider = () => {
               <SwiperSlide key={banner.id}>
                 <div className={`banner-slide ${banner.layout === 'reverse' ? 'banner-slide-reverse' : ''}`}>
                   <div className="banner-content">
-                    <div className="banner-badge" style={{ backgroundColor: banner.badgeColor }}>
+                    <div 
+                      className="banner-badge"
+                      style={{
+                        backgroundColor: banner.badgeColor,
+                        position: 'absolute',
+                        top: '2rem',
+                        left: '3rem',
+                        padding: '0.5rem 1rem',
+                        borderRadius: '2rem',
+                        color: 'white',
+                        fontSize: '0.75rem',
+                        fontWeight: '700',
+                        textTransform: 'uppercase',
+                        letterSpacing: '0.05em',
+                        boxShadow: '0 0.25rem 0.75rem rgba(0, 0, 0, 0.15)',
+                        zIndex: 10,
+                        minWidth: '3rem',
+                        textAlign: 'center'
+                      }}
+                    >
                       {banner.badge}
                     </div>
                     <div className="banner-text-content">
