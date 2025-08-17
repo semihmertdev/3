@@ -1,0 +1,71 @@
+Elbette. İşte geliştiriciye (Semih'e) doğrudan iletebileceğiniz, projenin başlangıcı için tüm detayları içeren, güncel ve eyleme yönelik Proje Gereksinimleri Dokümanı.
+
+***
+
+### **Proje Gereksinimleri Dokümanı (PRD) - Geliştirme Başlangıç Versiyonu**
+
+**Proje Adı:** Çok Dilli Web Sitesi Frontend Geliştirme
+**Tarih:** 16 Ağustos 2025
+**Versiyon:** 1.1 (Kick-off)
+
+---
+
+#### **1. Proje Vizyonu**
+
+Bu projenin amacı, `https://uc-otuz-react.vercel.app/` adresindeki referans tasarımı temel alarak, yüksek kalitede, ölçeklenebilir ve 32 dil desteğine sahip bir frontend altyapısı oluşturmaktır. Teslim edilecek olan ürün, görsel olarak referans siteyle birebir aynı, teknik olarak ise modern standartlara uygun, bakımı kolay ve gelecekteki backend entegrasyonuna tamamen hazır olacaktır.
+
+#### **2. Taraflar**
+
+* **Müşteri:** Özkan Bey
+* **Geliştirici:** Semih
+
+#### **3. Ana Teslimatlar (Projenin Tamamı)**
+
+**3.1. Kapsam Dahilindekiler:**
+
+* **Toplam 19 Sayfa:** Kullanıcı arayüzü ve bir admin panelini içeren tüm sayfaların sıfırdan kodlanması.
+* **Görsel Bütünlük:** Referans site ile piksel bazında tutarlı bir tasarımın oluşturulması.
+* **Çoklu Dil Altyapısı (32 Dil):** Tüm metin bileşenlerinin, dil dosyalarından veri çekecek şekilde dinamik olarak yapılandırılması. Hiçbir metin koda sabitlenmeyecektir.
+* **Bileşen (Component) Mimarisi:** Projenin tamamı, tekrar kullanılabilir ve modüler bileşenler kullanılarak inşa edilecektir.
+* **Tam Duyarlılık (Responsive):** Uygulamanın tüm masaüstü, tablet ve mobil cihaz ekranlarında kusursuz çalışması.
+
+**3.2. Kapsam Dışındakiler:**
+
+* **E-Ticaret Fonksiyonları:** **"Sepete Ekleme"** veya herhangi bir alışveriş sepeti mantığı geliştirilmeyecektir.
+* **Backend Geliştirme:** Bu proje yalnızca frontend katmanını kapsar. API, veritabanı ve sunucu işlemleri dahil değildir.
+* **İçerik Yönetimi:** Sayfalardaki yazı, resim gibi içeriklerin sisteme girilmesi bu işin kapsamı dışındadır.
+
+#### **4. Teknik Şartname ve Zorunlu Kodlama Kuralları**
+
+Geliştiricinin uyması gereken teknik standartlar aşağıda listelenmiştir. Bu kurallar projenin kalitesi için kritik öneme sahiptir.
+
+| Kategori              | Teknoloji / Kural                                                               |
+| --------------------- | ------------------------------------------------------------------------------- |
+| **Ana Framework** | Next.js / React                                                                 |
+| **Stil Kütüphanesi** | Tailwind CSS                                                                    |
+| **Boyutlandırma** | Tüm `font-size`, `margin`, `padding` vb. değerler için **`rem` birimi** kullanılacaktır. `px` kullanımından kaçınılacaktır. |
+| **Stil Yazımı** | **Kesinlikle inline-style (`style={...}`) kullanılmayacaktır.** Tüm stillendirme Tailwind sınıfları ile yapılacaktır. |
+| **Font Yönetimi** | Proje fontları, harici CDN (Google Fonts vb.) linki ile değil, **doğrudan projeye dahil edilerek (self-hosted)** sunulacaktır. |
+| **Kod Yazımı** | Proje hazır bir şablon veya tema üzerinden değil, **tamamen sıfırdan** yazılacaktır. |
+
+#### **5. Faz 1: Demo ve Değerlendirme (İlk Adım)**
+
+Projenin tamamına başlamadan önce, geliştiricinin teknik yeterliliğini ve proje gereksinimlerini anladığını teyit etmek amacıyla bir demo çalışması yapılacaktır.
+
+* **Amaç:** Kod kalitesini, mimari anlayışını ve teknik şartnameye uyumu değerlendirmek.
+* **Kapsam:** Sadece **Ana Sayfa**'nın (`/`) referans tasarıma uygun olarak kodlanması.
+* **Teslim Tarihi:** **17 Ağustos 2025, Pazar günü sonuna kadar.**
+* **Değerlendirme Kriterleri:**
+    1.  Tasarım, referans site ile birebir uyumlu mu?
+    2.  Yukarıdaki 4. maddede belirtilen tüm teknik kurallara uyulmuş mu? (`rem` kullanımı, inline-style olmaması vb.)
+    3.  Kod, anlaşılır ve modüler bileşenlere ayrılmış mı?
+    4.  Mobil ve masaüstü duyarlılığı sağlanmış mı?
+
+#### **6. Bütçe ve Sonraki Adımlar**
+
+* **Toplam Proje Bütçesi:** Projenin tamamı (19 sayfa) için anlaşılan bütçe **15,000 TL**'dir.
+* **Sonraki Adımlar:** Faz 1 (Demo) çalışması Müşteri tarafından başarıyla onaylandıktan sonra projenin tamamı için geliştirme süreci başlayacak ve ödeme takvimi netleştirilecektir.
+
+---
+**Onay:**
+Bu doküman, projenin başlangıç çerçevesini ve beklentilerini tanımlar. Geliştirici, Faz 1'e başlamadan önce bu dokümandaki tüm maddeleri okuyup anladığını teyit eder.

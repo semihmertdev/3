@@ -1,0 +1,131 @@
+{
+  "header": {
+    "search": "Produkt oder Marke suchen..",
+    "products": "Produkte",
+    "blog": "Blog",
+    "listing": "Anzeige",
+    "openStore": "Geschäft öffnen",
+    "login": "ANMELDEN",
+    "loginSubtext": "oder registrieren",
+    "currency": "EUR",
+    "cart": "MEIN WARENKORB",
+    "homepage": "Startseite",
+    "blogDetail": "Blog Detail",
+    "category": "Kategorie",
+    "returnPolicy": "Rückgabepolitik",
+    "helpCenter": "Hilfecenter",
+    "categories": "Kategorien",
+    "jobs": "Stellenangebote",
+    "countryCode": "DE",
+    "selectLanguage": "Sprache wählen",
+    "navigation": {
+      "product": "Produkt",
+      "tabletPhone": "Tablet & Telefon",
+      "accessory": "Zubehör",
+      "stores": "Geschäfte",
+      "electronics": "Elektronik",
+      "computerOffice": "Computer & Büro"
+    }
+  },
+  "home": {
+    "banners": {
+      "banner1": {
+        "title": "LASSA PRODUKTE",
+        "subtitle": "20% RABATT IM WARENKORB",
+        "description": "Verpassen Sie nicht die besondere Kampagnenmöglichkeit bei Premium-Reifen. Wählen Sie LASSA für sicheres Fahren.",
+        "cta": "JETZT EINKAUFEN",
+        "badge": "NEU"
+      },
+      "banner2": {
+        "title": "SOMMERREIFEN",
+        "subtitle": "BIS ZU 30% RABATT",
+        "description": "Erleben Sie sicheres und komfortables Fahren mit unseren speziell für die Sommersaison entwickelten Sommerreifen.",
+        "cta": "KAMPAGNE ANSEHEN",
+        "badge": "HEISS"
+      },
+      "banner3": {
+        "title": "GANZJAHRESREIFEN",
+        "subtitle": "KOSTENLOSE MONTAGE",
+        "description": "Lernen Sie unsere Ganzjahresreifen kennen, die bei allen Wetterbedingungen perfekte Leistung bieten.",
+        "cta": "DETAILS SEHEN",
+        "badge": "POPULÄR"
+      },
+      "banner4": {
+        "title": "WINTERREIFEN",
+        "subtitle": "SICHERES WINTERFAHREN",
+        "description": "Entdecken Sie unsere Winterreifen, die speziell für maximale Sicherheit in den Wintermonaten entwickelt wurden.",
+        "cta": "JETZT KAUFEN",
+        "badge": "SPEZIELL"
+      },
+      "banner5": {
+        "title": "SUV-REIFEN",
+        "subtitle": "LANGLEBIGE LEISTUNG",
+        "description": "Langlebige und leistungsstarke Reifenlösungen, die speziell für Ihre SUV-Fahrzeuge entwickelt wurden.",
+        "cta": "MODELL WÄHLEN",
+        "badge": "TREND"
+      },
+      "thumbnailText": "ZUSÄTZLICHE +1 JAHR GARANTIE AUF DIE BESTEHENDE 2-JAHRES-GARANTIEZEIT VON LASSA!",
+      "share": "Teilen"
+    },
+    "products": {
+      "title": "Produkte",
+      "subtitle": "In diesem Abschnitt angezeigt",
+      "loadMore": "Mehr anzeigen",
+      "priceDrop": "Preissenkung",
+      "fastDelivery": "Schnell",
+      "fastDeliverySubtext": "Lieferung",
+      "reviews": "Bewertungen",
+      "addToCart": "In den Warenkorb"
+    }
+  },
+  "products": {
+    "fastDelivery": "Schnell",
+    "fastDeliverySubtext": "Lieferung"
+  },
+  "footer": {
+    "quickLinks": "Schnelllinks",
+    "home": "Startseite",
+    "about": "Über uns",
+    "services": "Unsere Dienstleistungen",
+    "sell": "Verkaufen",
+    "terms": "AGB",
+    "stores": "Geschäfte & Marken",
+    "realEstate": "Immobilien",
+    "automotive": "Automobil",
+    "phoneTablet": "Telefon & Tablet",
+    "computerOffice": "Computer & Büro",
+    "livben": "Livben",
+    "team": "Unser Team",
+    "privacy": "Datenschutzrichtlinie",
+    "career": "Karriere",
+    "help": "Hilfe",
+    "helpCenter": "Hilfecenter",
+    "contact": "Kontakt",
+    "faq": "Häufig gestellte Fragen",
+    "support": "Support",
+    "mobileApp": "Mobile App",
+    "mobileAppText": "Laden Sie unsere mobile App herunter und erleichtern Sie Ihr Einkaufserlebnis.",
+    "download": "HERUNTERLADEN",
+    "explore": "ENTDECKEN MIT",
+    "copyright": "© 2025 3otuz.com",
+    "turkish": "TÜRKISCH",
+    "brandDescription": "Lorem ipsum ist Platzhaltertext, der häufig in der Grafik-, Druck- und Verlagswirtschaft zur Vorschau von Layouts und visuellen Mockups verwendet wird."
+  },
+  "product": {
+    "headphones": "KOPFHÖRER",
+    "appleAirPodsPro": "Apple AirPods Pro",
+    "categories": {
+      "phone": "Telefon",
+      "technology": "Technologie",
+      "computer": "Computer"
+    },
+    "subcategories": {
+      "smartphone": "SMARTPHONE",
+      "smartwatch": "SMARTWATCH",
+      "headphones": "KOPFHÖRER",
+      "tablet": "TABLET",
+      "computer": "COMPUTER"
+    },
+    "priceDrop": "Preissenkung"
+  }
+}

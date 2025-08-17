@@ -1,0 +1,131 @@
+{
+  "header": {
+    "search": "Aradığınız ürün veya markayı yazınız..",
+    "products": "Ürünler",
+    "blog": "Blog",
+    "listing": "İlan",
+    "openStore": "Mağaza Aç",
+    "login": "GİRİŞ YAP",
+    "loginSubtext": "veya kayıt ol",
+    "currency": "TRY",
+    "cart": "SEPETİM",
+    "homepage": "Anasayfa",
+    "blogDetail": "Blog Detail",
+    "category": "Kategori",
+    "returnPolicy": "İade Politikası",
+    "helpCenter": "Yardım Merkezi",
+    "categories": "Kategoriler",
+    "jobs": "İş İlanları",
+    "countryCode": "TR",
+    "selectLanguage": "Dil Seçin",
+    "navigation": {
+      "product": "Ürün",
+      "tabletPhone": "Tablet & Telefon",
+      "accessory": "Aksesuar",
+      "stores": "Mağazalar",
+      "electronics": "Elektronik",
+      "computerOffice": "Bilgisayar & Ofis"
+    }
+  },
+  "home": {
+    "banners": {
+      "banner1": {
+        "title": "LASSA ÜRÜNLERİNDE",
+        "subtitle": "SEPETTE %20 İNDİRİM",
+        "description": "Premium kalite lastiklerde özel kampanya fırsatını kaçırmayın. Güvenli sürüş için LASSA tercih edin.",
+        "cta": "ŞİMDİ ALIŞVERİŞ YAP",
+        "badge": "YENİ"
+      },
+      "banner2": {
+        "title": "YAZ LASTİKLERİ",
+        "subtitle": "%30'A VARAN İNDİRİM",
+        "description": "Yaz sezonu için özel olarak tasarlanmış lastiklerimizle güvenli ve konforlu sürüş deneyimi yaşayın.",
+        "cta": "KAMPANYAYI İNCELE",
+        "badge": "HOT"
+      },
+      "banner3": {
+        "title": "4 MEVSİM LASTİK",
+        "subtitle": "ÜCRETSİZ MONTAJ",
+        "description": "Tüm hava koşullarında mükemmel performans sunan 4 mevsim lastiklerimizle tanışın.",
+        "cta": "DETAYLARI GÖR",
+        "badge": "POPÜLER"
+      },
+      "banner4": {
+        "title": "KAR LASTİĞİ",
+        "subtitle": "GÜVENLİ KIŞ SÜRÜŞÜ",
+        "description": "Kış aylarında maksimum güvenlik için özel olarak geliştirilmiş kar lastiklerimizi keşfedin.",
+        "cta": "ŞİMDİ SATIN AL",
+        "badge": "ÖZEL"
+      },
+      "banner5": {
+        "title": "SUV LASTİKLERİ",
+        "subtitle": "DAYANIKLI PERFORMANS",
+        "description": "SUV araçlarınız için özel olarak tasarlanmış dayanıklı ve performanslı lastik çözümleri.",
+        "cta": "MODELİ SEÇ",
+        "badge": "TREND"
+      },
+      "thumbnailText": "MEVCUT 2 YIL GARANTİ SÜRESİNE EK +1 YIL GARANTİ LASSA'DAN!",
+      "share": "Paylaş"
+    },
+    "products": {
+      "title": "Ürünler",
+      "subtitle": "Bu bölümde Gösteriliyor",
+      "loadMore": "Daha Fazla Göster",
+      "priceDrop": "Fiyat Düştü",
+      "fastDelivery": "Hızlı",
+      "fastDeliverySubtext": "Teslimat",
+      "reviews": "Yorum",
+      "addToCart": "Sepete Ekle"
+    }
+  },
+  "products": {
+    "fastDelivery": "Hızlı",
+    "fastDeliverySubtext": "Teslimat"
+  },
+  "footer": {
+    "quickLinks": "Hızlı Linkler",
+    "home": "Anasayfa",
+    "about": "Hakkımızda",
+    "services": "Hizmetlerimiz",
+    "sell": "Satış Yap",
+    "terms": "Şartlar & Koşullar",
+    "stores": "Mağazalar & Markalar",
+    "realEstate": "Emlak",
+    "automotive": "Otomotiv",
+    "phoneTablet": "Telefon & Tablet",
+    "computerOffice": "Bilgisayar & Ofis",
+    "livben": "Livben",
+    "team": "Ekibimiz",
+    "privacy": "Gizlilik Politikası",
+    "career": "Kariyer",
+    "help": "Yardım",
+    "helpCenter": "Yardım Merkezi",
+    "contact": "İletişim",
+    "faq": "Sık Sorulan Sorular",
+    "support": "Destek",
+    "mobileApp": "Mobil Uygulama",
+    "mobileAppText": "Mobil uygulamamızı indirin ve alışveriş deneyiminizi kolaylaştırın.",
+    "download": "İNDİRİN",
+    "explore": "İLE KEŞFEDİN",
+    "copyright": "© 2025 3otuz.com",
+    "turkish": "TÜRKÇE",
+    "brandDescription": "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+  },
+  "product": {
+    "headphones": "KULAKLIK",
+    "appleAirPodsPro": "Apple AirPods Pro",
+    "categories": {
+      "phone": "Telefon",
+      "technology": "Teknoloji",
+      "computer": "Bilgisayar"
+    },
+    "subcategories": {
+      "smartphone": "AKILLI TELEFON",
+      "smartwatch": "AKILLI SAAT",
+      "headphones": "KULAKLIK",
+      "tablet": "TABLET",
+      "computer": "BİLGİSAYAR"
+    },
+    "priceDrop": "Fiyat Düştü"
+  }
+}

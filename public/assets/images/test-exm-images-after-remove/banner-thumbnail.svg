@@ -1,0 +1,48 @@
+<svg width="200" height="100" viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <defs>
+    <linearGradient id="tireGradientSmall" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a1a;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#333333;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1a1a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="200" height="100" fill="#f3f4f6"/>
+  
+  <!-- Small Tire -->
+  <g transform="translate(100, 50)">
+    <!-- Tire outer ring -->
+    <circle cx="0" cy="0" r="35" fill="url(#tireGradientSmall)" stroke="#000" stroke-width="1"/>
+    
+    <!-- Tire inner ring -->
+    <circle cx="0" cy="0" r="25" fill="#1a1a1a" stroke="#333" stroke-width="1"/>
+    
+    <!-- Tire tread pattern -->
+    <g stroke="#444" stroke-width="2" fill="none">
+      <line x1="0" y1="-35" x2="0" y2="-25"/>
+      <line x1="0" y1="25" x2="0" y2="35"/>
+      <line x1="-35" y1="0" x2="-25" y2="0"/>
+      <line x1="25" y1="0" x2="35" y2="0"/>
+    </g>
+    
+    <!-- Rim -->
+    <circle cx="0" cy="0" r="20" fill="#C0C0C0" stroke="#A0A0A0" stroke-width="1"/>
+    <circle cx="0" cy="0" r="15" fill="#E0E0E0" stroke="#C0C0C0" stroke-width="1"/>
+    
+    <!-- Rim spokes -->
+    <g stroke="#A0A0A0" stroke-width="2" fill="none">
+      <line x1="0" y1="-20" x2="0" y2="20"/>
+      <line x1="-20" y1="0" x2="20" y2="0"/>
+    </g>
+    
+    <!-- Center hub -->
+    <circle cx="0" cy="0" r="5" fill="#808080"/>
+  </g>
+  
+  <!-- Lassa logo element -->
+  <g transform="translate(160, 70)">
+    <path d="M0,0 L15,0 L12,8 L0,10 Z" fill="#DC2626"/>
+  </g>
+</svg>

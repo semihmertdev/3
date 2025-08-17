@@ -1,0 +1,131 @@
+{
+  "header": {
+    "search": "Search for products or brands..",
+    "products": "Products",
+    "blog": "Blog",
+    "listing": "Listing",
+    "openStore": "Open Store",
+    "login": "LOGIN",
+    "loginSubtext": "or register",
+    "currency": "USD",
+    "cart": "MY CART",
+    "homepage": "Homepage",
+    "blogDetail": "Blog Detail",
+    "category": "Category",
+    "returnPolicy": "Return Policy",
+    "helpCenter": "Help Center",
+    "categories": "Categories",
+    "jobs": "Job Listings",
+    "countryCode": "US",
+    "selectLanguage": "Select Language",
+    "navigation": {
+      "product": "Product",
+      "tabletPhone": "Tablet & Phone",
+      "accessory": "Accessory",
+      "stores": "Stores",
+      "electronics": "Electronics",
+      "computerOffice": "Computer & Office"
+    }
+  },
+  "home": {
+    "banners": {
+      "banner1": {
+        "title": "LASSA PRODUCTS",
+        "subtitle": "20% OFF IN CART",
+        "description": "Don't miss the special campaign opportunity on premium quality tires. Choose LASSA for safe driving.",
+        "cta": "SHOP NOW",
+        "badge": "NEW"
+      },
+      "banner2": {
+        "title": "SUMMER TIRES",
+        "subtitle": "UP TO 30% OFF",
+        "description": "Experience safe and comfortable driving with our specially designed summer tires for the summer season.",
+        "cta": "VIEW CAMPAIGN",
+        "badge": "HOT"
+      },
+      "banner3": {
+        "title": "ALL-SEASON TIRES",
+        "subtitle": "FREE MOUNTING",
+        "description": "Meet our all-season tires that offer perfect performance in all weather conditions.",
+        "cta": "SEE DETAILS",
+        "badge": "POPULAR"
+      },
+      "banner4": {
+        "title": "WINTER TIRES",
+        "subtitle": "SAFE WINTER DRIVING",
+        "description": "Discover our winter tires specially developed for maximum safety in winter months.",
+        "cta": "BUY NOW",
+        "badge": "SPECIAL"
+      },
+      "banner5": {
+        "title": "SUV TIRES",
+        "subtitle": "DURABLE PERFORMANCE",
+        "description": "Durable and high-performance tire solutions specially designed for your SUV vehicles.",
+        "cta": "CHOOSE MODEL",
+        "badge": "TREND"
+      },
+      "thumbnailText": "ADDITIONAL +1 YEAR WARRANTY ON EXISTING 2 YEAR WARRANTY PERIOD FROM LASSA!",
+      "share": "Share"
+    },
+    "products": {
+      "title": "Products",
+      "subtitle": "Showing in this section",
+      "loadMore": "Show More",
+      "priceDrop": "Price Drop",
+      "fastDelivery": "Fast",
+      "fastDeliverySubtext": "Delivery",
+      "reviews": "Reviews",
+      "addToCart": "Add to Cart"
+    }
+  },
+  "products": {
+    "fastDelivery": "Fast",
+    "fastDeliverySubtext": "Delivery"
+  },
+  "footer": {
+    "quickLinks": "Quick Links",
+    "home": "Home",
+    "about": "About",
+    "services": "Our Services",
+    "sell": "Sell",
+    "terms": "Terms & Conditions",
+    "stores": "Stores & Brands",
+    "realEstate": "Real Estate",
+    "automotive": "Automotive",
+    "phoneTablet": "Phone & Tablet",
+    "computerOffice": "Computer & Office",
+    "livben": "Livben",
+    "team": "Our Team",
+    "privacy": "Privacy Policy",
+    "career": "Career",
+    "help": "Help",
+    "helpCenter": "Help Center",
+    "contact": "Contact",
+    "faq": "Frequently Asked Questions",
+    "support": "Support",
+    "mobileApp": "Mobile App",
+    "mobileAppText": "Download our mobile app and make your shopping experience easier.",
+    "download": "DOWNLOAD",
+    "explore": "EXPLORE WITH",
+    "copyright": "© 2025 3otuz.com",
+    "turkish": "TURKISH",
+    "brandDescription": "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+  },
+  "product": {
+    "headphones": "HEADPHONES",
+    "appleAirPodsPro": "Apple AirPods Pro",
+    "categories": {
+      "phone": "Phone",
+      "technology": "Technology",
+      "computer": "Computer"
+    },
+    "subcategories": {
+      "smartphone": "SMARTPHONE",
+      "smartwatch": "SMARTWATCH",
+      "headphones": "HEADPHONES",
+      "tablet": "TABLET",
+      "computer": "COMPUTER"
+    },
+    "priceDrop": "Price Drop"
+  }
+}
