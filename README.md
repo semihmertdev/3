@@ -120,11 +120,4 @@ Bu proje, PRD dokümanında belirtilen tüm gereksinimleri karşılar:
 ✅ **Responsive Tasarım**: Tüm cihazlarda uyumlu  
 ✅ **Modüler Yapı**: Yeniden kullanılabilir bileşenler  
 
-## 📞 İletişim
-
-Geliştirici: Semih  
-Müşteri: Özkan Bey
-
----
-
 **Not**: Bu proje Faz 1 (Demo) aşamasındadır. Ana sayfa tamamlanmış olup, diğer sayfalar için geliştirme devam etmektedir.
